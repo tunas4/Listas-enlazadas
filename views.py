@@ -140,3 +140,11 @@ class Views:
         window = tk.Toplevel(self.root)
         window.geometry("350x350")
         window.title("Créditos")
+
+        tk.Label(window, text="Asignatura: Estructura de Datos Aplicadas").pack(padx=5, pady=5)
+        tk.Label(window, text="Profesor: Burciaga Perez Jesus Adrian").pack(padx=5, pady=5)
+        tk.Label(window, text="Alumno 1: Noé Abel Vargas López / 23170106").pack(padx=5, pady=5)
+        tk.Label(window, text="Alumno 2: Jonathan Ivan Castro Saenz / 23170035").pack(padx=5, pady=5)
+        tk.Label(window, text="Grado: 4").pack(padx=5, pady=5)
+        tk.Label(window, text="Sección: A").pack(padx=5, pady=5)
+        tk.Label(window, text="Nombre Practica: Listas Doblemente Enlazadas").pack(padx=5, pady=5)
